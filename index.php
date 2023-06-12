@@ -1,6 +1,6 @@
 <?php
 
-require_once "src/App.php";
+require_once "vendor/autoload.php";
 
 $elapsedTime = \Core\App::weakup(__DIR__);
 echo __DIR__;
