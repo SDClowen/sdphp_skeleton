@@ -1,0 +1,5 @@
+{
+    "require": {
+        "sdclowen/sdphp": "^1.0"
+    }
+}

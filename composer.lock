@@ -1,0 +1,67 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "892d67e07cdd515e77bf14cbfeeec8a6",
+    "packages": [
+        {
+            "name": "sdclowen/sdphp",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SDClowen/sdphp.git",
+                "reference": "bdb8af21c93174aee79fafef2abe25926b4a71cf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SDClowen/sdphp/zipball/bdb8af21c93174aee79fafef2abe25926b4a71cf",
+                "reference": "bdb8af21c93174aee79fafef2abe25926b4a71cf",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "App\\": "app/",
+                    "Core\\": "src/",
+                    "App\\Models\\": "app/models/",
+                    "App\\Controllers\\": "app/controllers/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mahmut YILDIRIM",
+                    "email": "mahmutyildirim@outlook.com.tr"
+                }
+            ],
+            "description": "A micro php framework",
+            "keywords": [
+                "framework",
+                "sdclowen",
+                "sdphp"
+            ],
+            "support": {
+                "issues": "https://github.com/SDClowen/sdphp/issues",
+                "source": "https://github.com/SDClowen/sdphp/tree/1.0.0"
+            },
+            "time": "2023-06-12T12:54:52+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
