@@ -1,6 +1,7 @@
 <?php 
 
-namespace App;
+namespace App\Controllers;
+
 use Core\Controller;
 
 class Param extends Controller

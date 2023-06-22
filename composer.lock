@@ -1,0 +1,70 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "4a83b9055488c2f8d300be952723c9a7",
+    "packages": [
+        {
+            "name": "sdclowen/sdphp",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SDClowen/sdphp.git",
+                "reference": "7e2036b4ca3c8b743a4d8f34c138e1f9d2cf199d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SDClowen/sdphp/zipball/7e2036b4ca3c8b743a4d8f34c138e1f9d2cf199d",
+                "reference": "7e2036b4ca3c8b743a4d8f34c138e1f9d2cf199d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0"
+            },
+            "default-branch": true,
+            "bin": [
+                "bin/sdphp"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Core\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mahmut YILDIRIM",
+                    "email": "mahmutyildirim@outlook.com.tr"
+                }
+            ],
+            "description": "A micro php framework",
+            "keywords": [
+                "framework",
+                "sdclowen",
+                "sdphp"
+            ],
+            "support": {
+                "issues": "https://github.com/SDClowen/sdphp/issues",
+                "source": "https://github.com/SDClowen/sdphp/tree/master"
+            },
+            "time": "2023-06-22T12:45:12+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "sdclowen/sdphp": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
