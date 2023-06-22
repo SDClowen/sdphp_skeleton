@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SDClowen/sdphp.git",
-                "reference": "7e2036b4ca3c8b743a4d8f34c138e1f9d2cf199d"
+                "reference": "cc9883dda9db8ec98c21567df56bac9fc8afaf86"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SDClowen/sdphp/zipball/7e2036b4ca3c8b743a4d8f34c138e1f9d2cf199d",
-                "reference": "7e2036b4ca3c8b743a4d8f34c138e1f9d2cf199d",
+                "url": "https://api.github.com/repos/SDClowen/sdphp/zipball/cc9883dda9db8ec98c21567df56bac9fc8afaf86",
+                "reference": "cc9883dda9db8ec98c21567df56bac9fc8afaf86",
                 "shasum": ""
             },
             "require": {
@@ -30,7 +30,8 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Core\\": "src/"
+                    "Core\\": "src/",
+                    "Core\\Attributes\\": "src/attributes/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -53,7 +54,7 @@
                 "issues": "https://github.com/SDClowen/sdphp/issues",
                 "source": "https://github.com/SDClowen/sdphp/tree/master"
             },
-            "time": "2023-06-22T12:45:12+00:00"
+            "time": "2023-06-22T19:30:39+00:00"
         }
     ],
     "packages-dev": [],
