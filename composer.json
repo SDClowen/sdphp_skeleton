@@ -5,5 +5,8 @@
             "App\\Helpers\\": "app/helpers/",
             "App\\Controllers\\": "app/controllers/"
         }
+    },
+    "require": {
+        "sdclowen/sdphp": "dev-master"
     }
 }
