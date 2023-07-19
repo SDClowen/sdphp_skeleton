@@ -1,7 +1,14 @@
 /vendor/
+.vscode
+.idea
+/app/caches/
 node_modules/
 npm-debug.log
 yarn-error.log
+
+
+*.lock
+package-lock.json
 
 # Laravel 4 specific
 bootstrap/compiled.php
@@ -21,5 +28,5 @@ Homestead.yaml
 Homestead.json
 /.vagrant
 .phpunit.result.cache
-composer.lock
-package-lock.json
+public/css/app.css
+/bin
