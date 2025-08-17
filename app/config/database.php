@@ -7,5 +7,7 @@
 		"host"		=>	"localhost",
 		"prefix"	=>	"",
 		"user"		=>	"root",
-		"password"	=>	"1234"
+		"password"	=>	"1234",
+		"cache "	=> false,
+		"cacheTime"	=> 60
 	];
